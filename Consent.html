@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<title>Consent Form </title>
+		<link rel="stylesheet" type="text/css" href="Consent Form.css">
+	</head>
+	<body>
+		<div id = "Heading">
+			<img src="OIT logo.png" height="50px" width="300" alt="Oregon Tech Logo" id = "logo">
+			<span id = "title">Consent Form</span>
+		</div>
+		<div id= "Disclaimer">
+			<h3> The following is a consent form for a web-based matching game.</h3>
+			<p> The web-based matching game consists of six images that will be matched to 6 phrases.
+			<p> The answers that participants submit will be collected and stored in a database.
+			<p> Data stored will be held anonymously and will not hold any personally identifiable data that can be traced back to participants.
+			<p> The stored data will only be accessible by verified researchers. </p>
+			<p> Data will be used in the following ways:<p>
+			<ul>
+				<li>Analyzed and published in a research paper</li>
+			</ul>
+			<p> By clicking submit, you allow researchers to use your data as explained above.</p>
+			<input type="submit" id="submit" value="Submit" onclick="getConsent()">
+			<p id = error></p>
+		</div>
+		
+		<script>
+		function getConsent(){
+			window.location.href =("Research Website.html")
+		}
+		</script>
+	</body>
+</html>
