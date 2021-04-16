@@ -20,6 +20,7 @@
 		$sql = "INSERT INTO user_inputs(Input1,Input2,Input3,Input4,Input5,Input6,Timestamp) VALUES('$Input_One','$Input_Two','$Input_Three','$Input_Four','$Input_Five','$Input_Six','$Time_Stamp')";
 		
 		if(!mysqli_query($connection,$sql)){
+			header("Location: https://csetplacement.cset.oit.edu/Errored_Research_Page.html");
 			echo 'Values Not Collected';
 			echo date(DATE_RFC2822);
 		}
