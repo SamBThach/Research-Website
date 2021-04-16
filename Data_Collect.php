@@ -5,7 +5,7 @@
 	
 	if(!$connection){
 		echo "No connection";
-		header("Location: Errored_Research_Page.html");
+		header("Location: https://csetplacement.cset.oit.edu/Errored_Research_Page.html");
 		exit();
 	}
 	else{
@@ -23,7 +23,7 @@
 			echo 'Values Not Collected';
 			echo date(DATE_RFC2822);
 		}
-		header("Location: Submitted Page.html");
+		header("Location: https://csetplacement.cset.oit.edu/Submitted_Page.html");
 		exit();		
 	}
 ?>
